@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculateur de moyenne en ligne gratuit</title>
+</head>
+<body>
+    <div class="logo_up">
+        <h1 id="title">Calculateur de moyenne en ligne gratuit</h1>
+    </div>
+    <section class="calcBoxes">
+        <div class="calcBox">
+            <label for="note" id="noteId">Note</label>
+            <input type="number" class="note" name="note" min="0" max="20">
+            <label for="coeff" id="coeffId">Coefficient</label>
+            <input type="number" class="coeff" name="coeff" min="0">
+        </div>
+        <div class="calcBox">
+            <label for="note" id="noteId">Note</label>
+            <input type="number" class="note" name="note" min="0" max="20">
+            <label for="coeff" id="coeffId">Coefficient</label>
+            <input type="number" class="coeff" name="coeff" min="0">
+        </div>
+        <h2 id="noteLabel">Moyenne pondérée : 0.00</h2>
+        <button id="addElements" onclick="addElement()">Ajouter une ligne</button>
+    </section>
+</body>
+</html>
